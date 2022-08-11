@@ -1,0 +1,32 @@
+{
+  "exclude": [
+    "node_modules",
+    "packages/**/__dtslint__/**",
+    // "packages/**/__tests__/**",
+    "packages/**/__fixtures__/**",
+    "packages/**/__utils__/**",
+    "packages/**/types/**"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "paths": {
+      "@impractical/*": ["./packages/*/src"]
+    },
+    "jsx": "react",
+    "lib": ["es6", "es2017", "es2018", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  }
+}

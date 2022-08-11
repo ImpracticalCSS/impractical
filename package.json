@@ -1,0 +1,7 @@
+{
+  "name": "styled-library",
+  "packageManager": "yarn@3.2.2",
+  "workspaces": [
+    "./packages/*"
+  ]
+}
